@@ -1,0 +1,64 @@
+/************Custom Properties ***********/
+:root {
+--first-color : #d90062;
+--fisrt-alpha-color: rgba(217,0,92,0.75);
+--second-color: #14192d;
+--secondd-alpha-color: rgba(20,25,45,0.75);
+--third-color: #501464;
+--third-alpha-color: rgba(80,20,100,0.75);
+--white-color: #fff;
+--gray-light-color: #f3f3f3;
+--gray-color: #ccc;
+--gray-drak-color: #666;
+--black-color: #000;
+--link-color : #509ee3;
+--title-color : #333;
+--text-color : #222;
+--white-alpha-color: rgba(255,255,255,0.5);
+--black-alpha-color: rgba(0,0,0,0.5);
+--font: "Raleway", "sans-serif";
+}
+/*********Reset**************/
+html {
+    box-sizing: bordex-box;
+    font-family:  var(--font);
+    font-size: 16px;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1{
+    margin: 0;
+    font-size: 2rem;
+}
+
+h2{
+    margin: 0;
+    font-size: 1.5rem;
+}
+h3{
+    margin: 0;
+    font-size: 1.25rem;
+}
+h4{
+    margin: 0;
+    font-size: 1rem;
+}
+h5{
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+h6{
+    margin: 0;
+    font-size: 0.7rem;
+}
+/**********Components*********/
+/*********Utilities*******/
+
+.box-shadow-1{
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+}
